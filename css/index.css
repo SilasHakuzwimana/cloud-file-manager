@@ -1,0 +1,19 @@
+body {
+  background: #f8f9fa;
+}
+#dropArea {
+  border: 2px dashed #6c757d;
+  border-radius: 0.375rem;
+  padding: 1.5rem;
+  text-align: center;
+  color: #6c757d;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#dropArea.dragover {
+  background-color: #e9ecef;
+}
+.table-wrap {
+  max-height: 400px;
+  overflow-y: auto;
+}
